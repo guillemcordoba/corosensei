@@ -227,7 +227,7 @@
 //! Implies `unwind`.
 
 #![no_std]
-#![cfg_attr(feature = "asm-unwind", feature(asm_unwind, c_unwind, asm_sym))]
+#![cfg_attr(feature = "asm-unwind", feature(asm_unwind, asm_sym))]
 #![warn(missing_docs)]
 
 // Must come first because it defines macros used by other modules.
